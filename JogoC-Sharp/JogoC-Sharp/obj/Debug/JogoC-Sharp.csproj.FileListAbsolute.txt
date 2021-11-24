@@ -1,0 +1,11 @@
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\bin\Debug\JogoC-Sharp.exe.config
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\bin\Debug\JogoC-Sharp.exe
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\bin\Debug\JogoC-Sharp.pdb
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC-Sharp.csproj.AssemblyReference.cache
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC-Sharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC_Sharp.Form1.resources
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC_Sharp.Properties.Resources.resources
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC-Sharp.csproj.GenerateResource.cache
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC-Sharp.csproj.CoreCompileInputs.cache
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC-Sharp.exe
+C:\Users\bruno.LAPTOP-1B874VP1\Downloads\Estudo\C-sharp\JogoC-sharp\JogoC-Sharp\JogoC-Sharp\obj\Debug\JogoC-Sharp.pdb
