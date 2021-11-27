@@ -32,8 +32,7 @@ namespace JogoC_Sharp
             Button btn = (Button)sender;
             int buttonIndex = btn.TabIndex;
 
-            if (btn.Text == "" && jogoFinal == false)
-            {
+            if (btn.Text == "" && jogoFinal == false)            
                 if (turno)
                 {
                     btn.Text = "X";
@@ -49,8 +48,7 @@ namespace JogoC_Sharp
                     rodadas++;
                     turno = !turno;
                     Cheack(2);
-                }
-            }
+                }            
         }
         void Cheack(int ChecagemPlayer)
         {
@@ -61,13 +59,22 @@ namespace JogoC_Sharp
             else
                 suporte = "O";
 
-            for (int h = 0; h < 8; h++)            
-                if (suporte == text[h])                
-                    if (text[h] == text[h + 1] && text[h] == text[h + 2])
-                    {
-                        MessageBox.Show("Parabéns você venceu!");
-                        return;
-                    }                            
+            //----Checagem Horizontal:
+            //for (int h = 0; h < 3; h ++)
+            //    if (suporte == text[h])
+            //        if (text[h] == text[h + 1] && text[h] == text[h + 2])
+            //        {
+            //            MessageBox.Show("Horizontal!");
+            //            return;
+            //        }
+            //----Checagem Vertical:
+            //for (int v = 0; v < 3; v += 3)
+            //    if (suporte == text[v])
+            //        if (text[v] == text[v + 3] && text[v] == text[v + 6])
+            //        {
+            //            MessageBox.Show("Vertical!");
+            //            return;
+            //        }
         }
     }
 }
