@@ -1,9 +1,9 @@
 # JogoC-sharp
 
-Um projeto simples para aplicar cálculos de matrizes em um jogo simples.
+Um projeto simples para aplicar cálculos de matrizes em um jogo.
 
 
-A simple project to apply matrix calculations in a simple game. 
+A simple project to apply matrix calculations in a game. 
 
 <br>
 
