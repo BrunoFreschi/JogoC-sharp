@@ -20,7 +20,7 @@ namespace JogoC_Sharp
         bool turno = true;
         bool jogoFinal = false;
 
-        string[] text = new string[9];
+        string[] text = new string[9]
 
         public Form1()
         {
