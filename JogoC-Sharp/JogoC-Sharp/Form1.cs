@@ -20,7 +20,7 @@ namespace JogoC_Sharp
         bool turno = true;
         bool jogoFinal = false;
 
-        string[] text = new string[9]
+        string[] text = new string[9];
 
         public Form1()
         {
@@ -32,14 +32,14 @@ namespace JogoC_Sharp
             Button btn = (Button)sender;
             int buttonIndex = btn.TabIndex;
 
-            if (btn.Text == "" && jogoFinal == false)            
+            if (btn.Text == "" && jogoFinal == false)
                 if (turno)
                 {
                     btn.Text = "X";
                     text[buttonIndex] = btn.Text;
                     rodadas++;
                     turno = !turno;
-                    Cheack(1);
+                    Checagem(1);
                 }
                 else
                 {
@@ -47,12 +47,12 @@ namespace JogoC_Sharp
                     text[buttonIndex] = btn.Text;
                     rodadas++;
                     turno = !turno;
-                    Cheack(2);
-                }            
+                    Checagem(2);
+                }
         }
-        void Cheack(int ChecagemPlayer)
+        void Checagem(int ChecagemPlayer)
         {
-            string suporte;
+            string suporte = "";
 
             if (ChecagemPlayer == 1)
                 suporte = "X";
@@ -60,21 +60,21 @@ namespace JogoC_Sharp
                 suporte = "O";
 
             //----Checagem Horizontal:
-            //for (int h = 0; h < 3; h ++)
-            //    if (suporte == text[h])
-            //        if (text[h] == text[h + 1] && text[h] == text[h + 2])
-            //        {
-            //            MessageBox.Show("Horizontal!");
-            //            return;
-            //        }
+            for (int h = 0; h < 8; h += 3)
+                if (suporte == text[h])
+                    if (text[h] == text[h + 1] && text[h] == text[h + 2])
+                    {
+                        MessageBox.Show("Horizontal!");
+                        return;
+                    }
             //----Checagem Vertical:
-            //for (int v = 0; v < 3; v += 3)
-            //    if (suporte == text[v])
-            //        if (text[v] == text[v + 3] && text[v] == text[v + 6])
-            //        {
-            //            MessageBox.Show("Vertical!");
-            //            return;
-            //        }
+            for (int v = 0; v < 3; v++)
+                if (suporte == text[v])
+                    if (text[v] == text[v + 3] && text[v] == text[v + 6])
+                    {
+                        MessageBox.Show("Vertical!");
+                        return;
+                    }
         }
     }
 }
