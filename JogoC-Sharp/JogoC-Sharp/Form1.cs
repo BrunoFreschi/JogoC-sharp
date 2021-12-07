@@ -56,11 +56,15 @@ namespace JogoC_Sharp
 
             if (PlayerVencedor == 1)
             {
+                Xplayer++;
+                Xpontos.Text = Convert.ToString(Xplayer);
                 MessageBox.Show("Jogador 'X' ganhou.");
                 turno = true;
             }
             else
             {
+                Oplayer++;
+                Opontos.Text = Convert.ToString(Oplayer);
                 MessageBox.Show("Jogador 'O' ganhou.");
                 turno = false;
             }
@@ -104,6 +108,34 @@ namespace JogoC_Sharp
                     Vencedor(ChecagemPlayer);
                     return;
                 }
+            if (rodadas == 9 && jogoFinal == false)
+            {
+                empates++;
+                empate.Text = Convert.ToString(empates);
+                MessageBox.Show("Empate!");
+                jogoFinal = true;
+                return;
+            }
+        }
+
+        private void btnClean_Click(object sender, EventArgs e)
+        {
+            btn.Text = "";
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+
+            rodadas = 0;
+            jogoFinal = false;
+            for (int i = 0; i < 9; i++)
+            {
+                text[i] = "";
+            }
         }
     }
 }

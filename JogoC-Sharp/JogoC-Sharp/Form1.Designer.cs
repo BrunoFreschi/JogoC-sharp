@@ -77,6 +77,7 @@
             this.btnClean.TabIndex = 9;
             this.btnClean.Text = "Limpar";
             this.btnClean.UseVisualStyleBackColor = false;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // button8
             // 
@@ -194,7 +195,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(76, 52);
+            this.label3.Location = new System.Drawing.Point(76, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 26);
             this.label3.TabIndex = 5;
@@ -204,7 +205,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(76, 26);
+            this.label2.Location = new System.Drawing.Point(76, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 26);
             this.label2.TabIndex = 4;
@@ -214,7 +215,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 0);
+            this.label1.Location = new System.Drawing.Point(76, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 26);
             this.label1.TabIndex = 3;
@@ -224,7 +225,7 @@
             // 
             this.empate.AutoSize = true;
             this.empate.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.empate.Location = new System.Drawing.Point(215, 52);
+            this.empate.Location = new System.Drawing.Point(215, 61);
             this.empate.Name = "empate";
             this.empate.Size = new System.Drawing.Size(24, 26);
             this.empate.TabIndex = 2;
@@ -234,7 +235,7 @@
             // 
             this.Opontos.AutoSize = true;
             this.Opontos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Opontos.Location = new System.Drawing.Point(215, 26);
+            this.Opontos.Location = new System.Drawing.Point(215, 35);
             this.Opontos.Name = "Opontos";
             this.Opontos.Size = new System.Drawing.Size(24, 26);
             this.Opontos.TabIndex = 1;
@@ -244,7 +245,7 @@
             // 
             this.Xpontos.AutoSize = true;
             this.Xpontos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Xpontos.Location = new System.Drawing.Point(215, 0);
+            this.Xpontos.Location = new System.Drawing.Point(215, 9);
             this.Xpontos.Name = "Xpontos";
             this.Xpontos.Size = new System.Drawing.Size(24, 26);
             this.Xpontos.TabIndex = 0;
