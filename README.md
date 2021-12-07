@@ -1,12 +1,11 @@
 # JogoC-sharp
+Olá!
 
-Um projeto simples para aplicar cálculos de matrizes em um jogo.
+Este é um pequeno projeto para aplicação de conceitos básicos de C-sharp, matrizes, lógica, git e organização de projetos.
 
 
-A simple project to apply matrix calculations in a game. 
-
-<br>
+This is a small project for applying basic concepts of C-sharp, matrices, logic, git and project organization.
 
 :waxing_crescent_moon:
 
-®FluX. Corp.
+®FluX.|Corp.
