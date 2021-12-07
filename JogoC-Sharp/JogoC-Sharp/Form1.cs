@@ -50,6 +50,21 @@ namespace JogoC_Sharp
                     Checagem(2);
                 }
         }
+        void Vencedor(int PlayerVencedor)
+        {
+            jogoFinal = true;
+
+            if (PlayerVencedor == 1)
+            {
+                MessageBox.Show("Jogador 'X' ganhou.");
+                turno = true;
+            }
+            else
+            {
+                MessageBox.Show("Jogador 'O' ganhou.");
+                turno = false;
+            }
+        }
         void Checagem(int ChecagemPlayer)
         {
             string suporte = "";
@@ -64,7 +79,7 @@ namespace JogoC_Sharp
                 if (suporte == text[h])
                     if (text[h] == text[h + 1] && text[h] == text[h + 2])
                     {
-                        MessageBox.Show("Horizontal!");
+                        Vencedor(ChecagemPlayer);
                         return;
                     }
             //----Checagem Vertical:
@@ -72,21 +87,21 @@ namespace JogoC_Sharp
                 if (suporte == text[v])
                     if (text[v] == text[v + 3] && text[v] == text[v + 6])
                     {
-                        MessageBox.Show("Vertical!");
+                        Vencedor(ChecagemPlayer);
                         return;
                     }
-            //----Checagem Diagonal
-            if (text[0] == suporte)           
-                    if (text[0] == text[4] && text[0] == text[8])
-                    {
-                        MessageBox.Show("Diagonal 1!");
-                        return;
-                    }
-            //----Checagem Diagonal
+            //----Checagem Diagonal Principal
+            if (text[0] == suporte)
+                if (text[0] == text[4] && text[0] == text[8])
+                {
+                    Vencedor(ChecagemPlayer);
+                    return;
+                }
+            //----Checagem Diagonal Secundária
             if (text[2] == suporte)
                 if (text[2] == text[4] && text[2] == text[6])
                 {
-                    MessageBox.Show("Diagonal 2!");
+                    Vencedor(ChecagemPlayer);
                     return;
                 }
         }
