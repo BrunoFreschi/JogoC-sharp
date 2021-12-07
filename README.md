@@ -1,4 +1,5 @@
 # JogoC-sharp
+<!--
 Olá!
 
 Este é um pequeno projeto para aplicação de conceitos básicos de C-sharp, matrizes, lógica, git e organização de projetos.
