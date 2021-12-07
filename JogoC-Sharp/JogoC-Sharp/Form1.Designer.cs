@@ -52,6 +52,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.btnClean);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
@@ -64,7 +65,7 @@
             this.panel1.Controls.Add(this.btn);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(319, 354);
+            this.panel1.Size = new System.Drawing.Size(320, 400);
             this.panel1.TabIndex = 0;
             // 
             // btnClean
@@ -180,6 +181,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
@@ -195,6 +197,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.Location = new System.Drawing.Point(76, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 26);
@@ -205,6 +208,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(76, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 26);
@@ -215,6 +219,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(76, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 26);
@@ -225,6 +230,7 @@
             // 
             this.empate.AutoSize = true;
             this.empate.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.empate.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.empate.Location = new System.Drawing.Point(215, 61);
             this.empate.Name = "empate";
             this.empate.Size = new System.Drawing.Size(24, 26);
@@ -235,6 +241,7 @@
             // 
             this.Opontos.AutoSize = true;
             this.Opontos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Opontos.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Opontos.Location = new System.Drawing.Point(215, 35);
             this.Opontos.Name = "Opontos";
             this.Opontos.Size = new System.Drawing.Size(24, 26);
@@ -245,6 +252,7 @@
             // 
             this.Xpontos.AutoSize = true;
             this.Xpontos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Xpontos.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Xpontos.Location = new System.Drawing.Point(215, 9);
             this.Xpontos.Name = "Xpontos";
             this.Xpontos.Size = new System.Drawing.Size(24, 26);
@@ -256,7 +264,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(343, 485);
+            this.BackgroundImage = global::JogoC_Sharp.Properties.Resources.Fundo_teste1;
+            this.ClientSize = new System.Drawing.Size(344, 486);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

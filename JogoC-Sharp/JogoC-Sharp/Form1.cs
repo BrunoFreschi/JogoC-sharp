@@ -132,10 +132,9 @@ namespace JogoC_Sharp
 
             rodadas = 0;
             jogoFinal = false;
-            for (int i = 0; i < 9; i++)
-            {
+            for (int i = 0; i < 9; i++)            
                 text[i] = "";
-            }
+            
         }
     }
 }
