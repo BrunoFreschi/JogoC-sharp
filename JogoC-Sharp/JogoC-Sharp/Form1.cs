@@ -75,6 +75,20 @@ namespace JogoC_Sharp
                         MessageBox.Show("Vertical!");
                         return;
                     }
+            //----Checagem Diagonal
+            if (text[0] == suporte)           
+                    if (text[0] == text[4] && text[0] == text[8])
+                    {
+                        MessageBox.Show("Diagonal 1!");
+                        return;
+                    }
+            //----Checagem Diagonal
+            if (text[2] == suporte)
+                if (text[2] == text[4] && text[2] == text[6])
+                {
+                    MessageBox.Show("Diagonal 2!");
+                    return;
+                }
         }
     }
 }
