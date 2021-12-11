@@ -30,9 +30,6 @@ This is a small project for applying basic concepts of C-sharp, matrices, logic,
     🎬 The project... With the idea in mind of what I would like to create, I started a search on YouTube, I found a series of videos that served exactly what I had the mind to develop.
   </li>
   </ul>
-  
-   
-   ![Snake animation](https://https://github.com/BrunoFreschi/rafaballerini/blob/output/github-contribution-grid-snake.svg)
+       
   <h6 align="right">:waxing_crescent_moon:
-
   <h6 align="right">®FluX.|Corp.
