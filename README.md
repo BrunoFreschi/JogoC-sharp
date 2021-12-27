@@ -32,4 +32,4 @@ This is a small project for applying basic concepts of C-sharp, matrices, logic,
   </ul>
        
   <h6 align="right">:waxing_crescent_moon:
-  <h6 align="right">®FluX.|Corp.
+  <h6 align="right">®Flux.|Corp.
